@@ -25,15 +25,15 @@ byte bufferLen = 18;
 byte readBlockData[18];
 //-----------------------------------------
 String card_holder_name;
-const String sheet_url = "https://script.google.com/macros/s/AKfycbx2h4u9-HXv-LAHA8m3XHdNXjdzUmnPo5yn-eZ3hvNH7p50nZy-ZLrb_Cv7AcVQikrOrg/exec?name=";  //Enter Google Script URL
+const String sheet_url = "your script url. write here from y to before question mark?name=";  //Enter Google Script URL
  
 //-----------------------------------------
 // Fingerprint for demo URL, expires on ‎Monday, ‎May ‎2, ‎2022 7:20:58 AM, needs to be updated well before this date
 //const uint8_t fingerprint[20] = {0x9a, 0x87, 0x9b, 0x82, 0xe9, 0x19, 0x7e, 0x63, 0x8a, 0xdb, 0x67, 0xed, 0xa7, 0x09, 0xd9, 0x2f, 0x30, 0xde, 0xe7, 0x3c};
 //9a 87 9b 82 e9 19 7e 63 8a db 67 ed a7 09 d9 2f 30 de e7 3c
 //-----------------------------------------
-#define WIFI_SSID "Airtel_CreativeMathZone"  //Enter WiFi Name
-#define WIFI_PASSWORD "C@1qz2sx3dc4fv5gb6hn7jm8"  //Enter WiFi Password
+#define WIFI_SSID "ssid"  //Enter WiFi Name
+#define WIFI_PASSWORD "pass"  //Enter WiFi Password
 //-----------------------------------------
 
 //Initialize the LCD display
